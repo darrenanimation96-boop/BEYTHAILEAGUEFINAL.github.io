@@ -100,7 +100,7 @@
   <header><div class="container navbar"><a href="#home" class="brand" aria-label="BEY Thai League home"><img class="brand-logo" src="mainlogo.png" alt="BEY Thai League logo"><span><span class="brand-name">BEY THAI LEAGUE</span><span class="brand-sub">BASKETBALL · THAILAND</span></span></a><nav class="nav-links" id="navLinks" aria-label="Main navigation"><a href="#home">Home</a><a href="#match-center">Match Center</a><a href="#games">Games</a><a href="#standings">Standings</a><a href="#teams">Teams</a><a href="#news">News</a><a href="#founder">Owner & Founder</a><a href="#contact">Contact</a></nav><a class="btn nav-cta" href="#contact">Get Involved ↗</a><button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button></div></header>
   <main>
     <section class="hero" id="home"><div class="container hero-content"><div class="eyebrow">International Basketball · Bangkok, Thailand</div><h1>Earn Your<br><span>Next Look.</span></h1><p class="hero-description">More than a game. A platform for competition, player development, basketball culture, and opportunities to take your game further.</p><div class="hero-actions"><a class="btn" href="#match-center">See Match Center ↗</a><a class="btn btn-outline" href="#games">Explore The League</a></div><div class="hero-meta"><span>Compete</span><span>Develop</span><span>Get Seen</span></div></div></section>
-    <div class="league-strip"><div class="container strip-grid"><div class="strip-item"><strong>07</strong><span>League teams</span></div><div class="strip-item"><strong>2026</strong><span>Season planning</span></div><div class="strip-item"><strong>Players</strong><span>Profiles & statistics</span></div><div class="strip-item"><strong>Bangkok</strong><span>Thailand</span></div></div></div>
+    <div class="league-strip"><div class="container strip-grid"><div class="strip-item"><strong>08</strong><span>League teams</span></div><div class="strip-item"><strong>2026</strong><span>Season planning</span></div><div class="strip-item"><strong>Players</strong><span>Profiles & statistics</span></div><div class="strip-item"><strong>Bangkok</strong><span>Thailand</span></div></div></div>
     <section class="section" id="match-center">
       <div class="container">
         <div class="section-heading">
@@ -167,7 +167,7 @@
     </section>
     <section class="section section-dark" id="games"><div class="container"><div class="section-heading"><div><div class="eyebrow">On the court</div><h2>Games & Results</h2></div><p>Follow upcoming matchups, completed games, scores, and league announcements. Official game data will appear when confirmed.</p></div><div class="filter-row" id="gameFilters"><button class="filter-btn active" data-filter="all">All Games</button><button class="filter-btn" data-filter="upcoming">Upcoming</button><button class="filter-btn" data-filter="completed">Results</button></div><div class="grid-3" id="gamesGrid"></div><p class="notice">Scores, dates, venues, and game times must be confirmed by league staff.</p></div></section>
     <section class="section" id="standings"><div class="container"><div class="section-heading"><div><div class="eyebrow">The race to the top</div><h2>League Standings</h2></div><p>Track wins, losses, win percentage, and point differential once verified regular-season results are available.</p></div><div class="table-wrap"><table><thead><tr><th>#</th><th>Team</th><th>GP</th><th>W</th><th>L</th><th>Win %</th><th>Point Diff.</th></tr></thead><tbody id="standingsBody"></tbody></table></div></div></section>
-    <section class="section section-dark" id="teams"><div class="container"><div class="section-heading"><div><div class="eyebrow">Seven squads. One league.</div><h2>Meet The Teams</h2></div><p>Discover the teams competing in BEY THAI LEAGUE. Official team logos and profiles for all seven league teams.</p></div><div class="grid-4" id="teamsGrid"></div></div></section>
+    <section class="section section-dark" id="teams"><div class="container"><div class="section-heading"><div><div class="eyebrow">Eight squads. One league.</div><h2>Meet The Teams</h2></div><p>Discover the teams competing in BEY THAI LEAGUE. Official team logos and profiles for all eight league teams.</p></div><div class="grid-4" id="teamsGrid"></div></div></section>
     <section class="section" id="leaders"><div class="container"><div class="section-heading"><div><div class="eyebrow">Numbers tell the story</div><h2>Stat Leaders</h2></div><p>Scoring, rebounds, assists, steals, and blocks will be ranked from verified player statistics.</p></div><div class="grid-3" id="leadersGrid"></div></div></section>
     <section class="section section-dark" id="about"><div class="container about-grid"><div class="about-copy"><div class="eyebrow">The BEY vision</div><h2>Built For The <span class="gold">Next Level.</span></h2><p>BEY THAI LEAGUE is a basketball platform focused on competitive play, player visibility, team identity, and a strong basketball community in Bangkok, Thailand.</p><p>The website brings league information into one place, connecting fans with schedules and results while giving players a platform to showcase their game.</p><a href="#contact" class="btn">Connect With The League ↗</a></div><div class="about-panel"><div class="eyebrow">More than the game</div><h3>Compete. Document. Connect.</h3><ul><li>Organized league and team information</li><li>Player profiles and performance tracking</li><li>Schedules, scores, and standings</li><li>Basketball media and game highlights</li><li>Partnership and sponsorship inquiries</li></ul></div></div></section>
     <section class="section" id="news"><div class="container"><div class="section-heading"><div><div class="eyebrow">From the league</div><h2>News & Announcements</h2></div><p>Official league announcements, registration information, team updates, schedule releases, and event coverage.</p></div><div class="grid-3" id="newsGrid"></div></div></section>
@@ -240,7 +240,8 @@
         ['SIAMSTORM','SS','SIAMSTORM.png'],
         ['THAIDEVILZ','TD','THAIDEVILZ.png'],
         ['THAIGLADIATORS','TG','THAIGLADIATORS.png'],
-        ['THAISTARZ','TS','THAISTARZ.png']
+        ['THAISTARZ','TS','THAISTARZ.png'],
+        ['SUNDEVILZ','SD','SUNDEVILZ.jpg']
       ],
       games:[
         {date:'ADD DATE',time:'ADD TIP-OFF TIME',venue:'ADD VENUE',status:'upcoming',home:'BEYELITE',homeCode:'BE',homeLogo:'BEYELITE.png',away:'MAICHANG COBRA',awayCode:'MC',awayLogo:'MAICHANG COBRA.png',homeScore:0,awayScore:0,watchUrl:''},
@@ -253,7 +254,8 @@
         {name:'SIAMSTORM',code:'SS',logo:'SIAMSTORM.png',gp:0,wins:0,losses:0,winPct:'0%',pointDiff:0},
         {name:'THAIDEVILZ',code:'TD',logo:'THAIDEVILZ.png',gp:0,wins:0,losses:0,winPct:'0%',pointDiff:0},
         {name:'THAIGLADIATORS',code:'TG',logo:'THAIGLADIATORS.png',gp:0,wins:0,losses:0,winPct:'0%',pointDiff:0},
-        {name:'THAISTARZ',code:'TS',logo:'THAISTARZ.png',gp:0,wins:0,losses:0,winPct:'0%',pointDiff:0}
+        {name:'THAISTARZ',code:'TS',logo:'THAISTARZ.png',gp:0,wins:0,losses:0,winPct:'0%',pointDiff:0},
+        {name:'SUNDEVILZ',code:'SD',logo:'SUNDEVILZ.jpg',gp:0,wins:0,losses:0,winPct:'0%',pointDiff:0}
       ],
       leaders:[],news:[]
     };
